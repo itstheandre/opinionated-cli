@@ -1,0 +1,29 @@
+{
+  "name": "fsjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "opinionated-fsjs": "index.js",
+    "ofsjs": "index.js"
+  },
+  "keywords": [],
+  "author": "André de Albuquerque",
+  "license": "MIT",
+  "dependencies": {
+    "await-to-js": "^2.1.1",
+    "chalk": "^4.1.0",
+    "cli-alerts": "^1.2.2",
+    "cli-handle-error": "^4.4.0",
+    "cli-handle-unhandled": "^1.1.1",
+    "cli-should-cancel": "^1.0.3",
+    "cli-welcome": "^2.2.2",
+    "copy-template-dir": "^1.4.0",
+    "enquirer": "^2.3.6",
+    "execa": "^4.0.3",
+    "ora": "^5.1.0"
+  }
+}
